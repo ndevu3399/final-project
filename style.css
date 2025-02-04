@@ -157,3 +157,75 @@ footer {
     text-align: center;
     font-size: 1.2em;
 }
+/* About Section */
+.about-section {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.about-section h2 {
+    color: #6a4c9c;
+    font-size: 2em;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Mission & Vision Section */
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    flex-wrap: wrap;
+}
+
+.mission, .vision {
+    width: 45%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(106, 76, 156, 0.1);
+    border-radius: 8px;
+}
+
+.mission h2, .vision h2 {
+    color: #6a4c9c;
+    font-size: 1.8em;
+}
+
+.mission p, .vision p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.why-choose-us h2 {
+    color: #6a4c9c;
+    font-size: 2em;
+}
+
+.why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-choose-us li {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Highlight Active Page in Navigation */
+nav ul li .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
