@@ -229,3 +229,36 @@ nav ul li .active {
     font-weight: bold;
     text-decoration: underline;
 }
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.testimonials h2 {
+    color: #6a4c9c;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(106, 76, 156, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    color: #333;
+    font-style: italic;
+}
+
+.testimonial h4 {
+    font-size: 1em;
+    color: #6a4c9c;
+    margin-top: 10px;
+}
