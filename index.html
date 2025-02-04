@@ -1,41 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wachira Logistics</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wachira Logistics</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to Wachira Logistics</h1>
-    <!-- Add navigation or other header content here -->
-  </header>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Wachira Logistics</h1>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Welcome to Wachira Logistics</h1>
+            <p>Your trusted partner in global transportation and logistics.</p>
+            <a href="services.html" class="cta-button">Explore Our Services</a>
+        </section>
+        
+        <!-- Overview Section -->
+        <section class="overview">
+            <h2>Why Choose Us?</h2>
+            <p>We specialize in seamless transportation of goods, vehicle imports, secure package delivery, and heavy machinery relocation worldwide.</p>
+        </section>
 
-  <section class="contact-form">
-    <h2>Contact Us</h2>
-    <form id="contactForm">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <span id="emailError" class="error-message"></span>
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span id="emailError" class="error-message"></span>
 
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone" required>
-      <span id="phoneError" class="error-message"></span>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <span id="phoneError" class="error-message"></span>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      <span id="messageError" class="error-message"></span>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <span id="messageError" class="error-message"></span>
 
-      <button type="submit">Submit</button>
-    </form>
-  </section>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
 
-  <footer>
-    <p>&copy; 2025 Wachira Logistics. All rights reserved.</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Wachira Logistics. All Rights Reserved.</p>
+    </footer>
 
-  <!-- Link to your JavaScript file -->
-  <script src="script.js"></script>
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>

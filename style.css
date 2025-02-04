@@ -1,66 +1,94 @@
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image: url('truck_logo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #333;
-  }
-  
-  header {
-    background-color: #6a4c9c; /* Purple */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: rgba(106, 76, 156, 0.8);
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
-  
-  .contact-form {
+    font-size: 2em;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(106, 76, 156, 0.8);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Contact Form Section */
+.contact-form {
     width: 100%;
     max-width: 600px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-form h2 {
+}
+
+.contact-form h2 {
     color: #6a4c9c;
-  }
-  
-  label {
+    text-align: center;
+}
+
+/* Input & Textarea Styles */
+label {
     display: block;
     margin: 10px 0 5px;
     font-weight: bold;
-  }
-  
-  input, textarea {
+}
+
+input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 2px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
-  }
-  
-  input:focus, textarea:focus {
-    border-color: #6a4c9c; /* Purple focus border */
-  }
-  
-  button {
-    background-color: #f9c80e; /* Yellow */
-    color: #6a4c9c; /* Purple text */
+}
+
+input:focus, textarea:focus {
+    border-color: #6a4c9c;
+}
+
+/* Button */
+button {
+    background-color: #f9c80e;
+    color: #6a4c9c;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-  }
-  
-  button:hover {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
     background-color: #f39c12;
-  }
-  
-  .error-message {
+}
+
+/* Error Messages */
+.error-message {
     color: red;
     font-size: 0.9em;
     margin-top: 5px;
-  }
-  
+    display: block;
+}
